@@ -36,3 +36,90 @@
     transform: rotate(360deg);
   }
 }
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f4f4; /* Soft beige background */
+  color: #333; /* Darker text color for contrast */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffeef0; /* Light pink background */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px; /* Rounded corners */
+}
+
+/* Header styles */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 2px solid #444; /* Subtle border at the bottom */
+}
+
+/* AddTodo component styles */
+.add-todo-container {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ffeef0; /* Light pink background */
+}
+
+.add-todo-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-todo-input {
+  margin-bottom: 10px;
+}
+
+.add-todo-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Todos component styles */
+.todos-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-item {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #ffeef0; /* Light pink background */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-item-title {
+  font-weight: bold;
+}
+
+.todo-item-description {
+  flex-grow: 1;
+}
+
+.todo-item-delete {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
